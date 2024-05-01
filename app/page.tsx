@@ -7,7 +7,7 @@ import React from "react";
 const Home = () => {
   return (
     <>
-      <section className="section-hero">
+      <section className="section-hero bg-bg-colorGreyDark">
         <Hero />
       </section>
       <section className="section-about">

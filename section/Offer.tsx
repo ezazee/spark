@@ -18,8 +18,11 @@ const Offer = () => {
                 >
                   What Services We Provide
                 </span>
-                <h2 className="jos section-title text-colorDark" data-jos_delay="0.3">
-                  <span className="text-colorCustom">Digital marketing {" "}</span>
+                <h2
+                  className="jos section-title text-colorDark dark:text-colorCustom"
+                  data-jos_delay="0.3"
+                >
+                  <span className="text-colorCustom">Digital marketing </span>
                   services aligned with your goals
                 </h2>
                 {/* Text Link */}
@@ -66,10 +69,10 @@ const Offer = () => {
             </div>
             {/* Section Wrapper */}
             {/* Service List */}
-            <ul className="jos grid h-[calc(100%-1px)] grid-cols-1 gap-x-24 overflow-hidden bg-colorGreyDark px-10 md:grid-cols-2 md:px-14">
+            <ul className="jos grid h-[calc(100%-1px)] grid-cols-1 gap-x-24 overflow-hidden bg-white border-2 border-indigo-500 px-10 md:grid-cols-2 md:px-14">
               {/* Service Item */}
               <li
-                className="jos border-b border-white/[12%] py-10 md:py-14"
+                className="jos border-b border-black/[12%] py-10 md:py-14"
                 data-jos_delay={0}
               >
                 <div className="mb-6 md:mb-12">
@@ -80,10 +83,10 @@ const Offer = () => {
                     height={78}
                   />
                 </div>
-                <h3 className="mb-5 font-medium">
+                <h3 className="mb-5 font-medium text-colorCustom">
                   Marketing strategy and Data Solutions
                 </h3>
-                <p>
+                <p className="text-colorDark">
                   We create mind-blowing visuals, brands, websites and products
                   that help startups and innovative companies gain more.
                 </p>
@@ -91,7 +94,7 @@ const Offer = () => {
               {/* Service Item */}
               {/* Service Item */}
               <li
-                className="jos border-b border-white/[12%] py-10 md:py-14"
+                className="jos border-b border-black/[12%] py-10 md:py-14"
                 data-jos_delay="0.3"
               >
                 <div className="mb-6 md:mb-12">
@@ -102,10 +105,10 @@ const Offer = () => {
                     height={78}
                   />
                 </div>
-                <h3 className="mb-5 font-medium">
+                <h3 className="mb-5 font-medium text-colorCustom">
                   Data Analytics and Solutions
                 </h3>
-                <p>
+                <p className="text-colorDark">
                   We create mind-blowing visuals, brands, websites and products
                   that help startups and innovative companies gain more.
                 </p>
@@ -113,7 +116,7 @@ const Offer = () => {
               {/* Service Item */}
               {/* Service Item */}
               <li
-                className="jos border-b border-white/[12%] py-10 md:py-14"
+                className="jos border-b border-black/[12%] py-10 md:py-14"
                 data-jos_delay="0.6"
               >
                 <div className="mb-6 md:mb-12">
@@ -124,10 +127,10 @@ const Offer = () => {
                     height={78}
                   />
                 </div>
-                <h3 className="mb-5 font-medium">
+                <h3 className="mb-5 font-medium text-colorCustom">
                   Website Design and Development
                 </h3>
-                <p>
+                <p className="text-colorDark">
                   We create mind-blowing visuals, brands, websites and products
                   that help startups and innovative companies gain more.
                 </p>
@@ -135,7 +138,7 @@ const Offer = () => {
               {/* Service Item */}
               {/* Service Item */}
               <li
-                className="jos border-b border-white/[12%] py-10 md:py-14"
+                className="jos border-b border-black/[12%] py-10 md:py-14"
                 data-jos_delay="0.9"
               >
                 <div className="mb-6 md:mb-12">
@@ -146,10 +149,10 @@ const Offer = () => {
                     height={78}
                   />
                 </div>
-                <h3 className="mb-5 font-medium">
+                <h3 className="mb-5 font-medium text-colorCustom">
                   Business Strategy And Solution
                 </h3>
-                <p>
+                <p className="text-colorDark">
                   We create mind-blowing visuals, brands, websites and products
                   that help startups and innovative companies gain more.
                 </p>

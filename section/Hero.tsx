@@ -34,101 +34,99 @@ const Hero = () => {
        };
      }, []);
   return (
-    <div className="relative z-10 hero">
-      {/* Hero Space */}
-      <div className="pb-20 pt-44 lg:pb-24 lg:pt-52 xl:pb-32 xl:pt-56 xxl:pb-[180px] xxl:pt-[270px]">
-        {/* Section Container */}
-        <div className="container">
-          <div className="mx-auto flex max-w-[960px] flex-col items-center gap-y-12 text-center">
-            {/* Hero Title */}
-            <h1
-              className="jos text-4xl font-bold text-colorDark sm:text-6xl md:text-7xl lg:text-9xl xl:text-[150px]"
-              data-jos_delay="0.3"
-            >
-              <span className="text-colorCustom">Creative</span> Digital Agency
-            </h1>
-            {/* Hero Title */}
-            {/* Hero Arrow */}
-            <div className="hidden md:inline-block">
-              <Image
-                src="/img/icon/icon-extra-long-arrow-down.svg"
-                alt="icon-extra-long-arrow-down"
-                width={37}
-                height={106}
-              />
+    <section className="section-hero hero">
+      <div className="relative z-10 overflow-hidden">
+        {/* Hero Space */}
+        <div className="hero pb-20 pt-44 lg:pb-24 lg:pt-52 xl:pt-56 xxl:pb-[72px] xxxl:pb-[145px] xxxl:pt-[250px]">
+          {/* Section Container */}
+          <div className="container">
+            {/* Hero Top */}
+            <div className="max-w-[850px] lg:ml-36">
+              {/* Hero Content Block */}
+              <h2 className="jos text-7xl font-extrabold text-colorGrey leading-[1.05] md:text-8xl xl:text-9xl xxl:text-[150px]">
+                Creative
+              </h2>
+              <div className="grid mt-5 grid-cols-1 text-colorGrey items-center gap-11 sm:grid-cols-[minmax(0,_0.85fr)_1fr]">
+                <p className="jos">
+                  We embody unwavering expertise, garnered through years of
+                  industry mastery. Our team’s extensive knowledge
+                </p>
+                <h2
+                  className="jos text-7xl font-extrabold text-colorGrey leading-[1.05] md:text-8xl xl:text-9xl xxl:text-[150px]"
+                  data-jos_delay="0.3"
+                >
+                  Digital
+                </h2>
+              </div>
+              <div className="grid grid-cols-1 items-center justify-between gap-11 sm:grid-cols-[minmax(0,_0.85fr)_1fr]">
+                <h2
+                  className="jos text-stroke-custom text-7xl font-extrabold leading-[1.05] text-transparent md:text-8xl xl:text-9xl xxl:text-[150px]"
+                  data-jos_delay="0.3"
+                >
+                  Agency
+                </h2>
+                {/* Text Link */}
+                <div
+                  className="flex jos sm:justify-items-end"
+                  data-jos_delay="0.6"
+                >
+                  <a
+                    href="#"
+                    className="inline-flex items-center pb-1 border-b btn group gap-x-3 border-colorOrange text-colorOrange sm:ml-auto"
+                  >
+                    About Agency
+                    <span className="relative flex items-center overflow-hidden">
+                      <Image
+                        src="/img/icon/icon-orange-arrow-long-right.svg"
+                        alt="icon-orange-arrow-long-right"
+                        width={24}
+                        height={12}
+                        className="w-6 h-3 translate-x-0 animate-transition group-hover:translate-x-full"
+                      />
+                      <Image
+                        src="/img/icon/icon-orange-arrow-long-right.svg"
+                        alt="icon-orange-arrow-long-right"
+                        width={24}
+                        height={12}
+                        className="absolute inset-0 w-6 h-3 -translate-x-full animate-transition group-hover:translate-x-0"
+                      />
+                    </span>
+                  </a>
+                </div>
+                {/* Text Link */}
+              </div>
+              {/* Hero Content Block */}
             </div>
-            {/* Hero Arrow */}
-            <div className="flex gap-x-[34px] text-xl text-colorGreyLight">
-              <span className="relative after:absolute after:left-[calc(100%+_17px)] after:top-1/2 after:h-[6px] after:w-[6px] after:-translate-y-1/2 after:rounded-[50%] after:bg-colorGreyLight last:after:hidden">
-                Design
-              </span>
-              <span className="relative after:absolute after:left-[calc(100%+_17px)] after:top-1/2 after:h-[6px] after:w-[6px] after:-translate-y-1/2 after:rounded-[50%] after:bg-colorGreyLight last:after:hidden">
-                Branding
-              </span>
-              <span className="relative after:absolute after:left-[calc(100%+_17px)] after:top-1/2 after:h-[6px] after:w-[6px] after:-translate-y-1/2 after:rounded-[50%] after:bg-colorGreyLight last:after:hidden">
-                Marketing
-              </span>
-            </div>
-            {/* Video Button */}
-            <a
-              target="_blank"
-              href="#"
-              aria-label="video-play"
-              className="animate-transition text-text mx-auto inline-flex h-24 w-24 items-center justify-center overflow-hidden rounded-[50%] bg-colorDark text-white hover:scale-110 hover:bg-colorDark/80 md:h-32 md:w-32"
-            >
-              <span className="absolute">Play Now</span>
-            </a>
-            {/* Video Button */}
+            {/* Hero Top */}
           </div>
+          {/* Section Container */}
+          {/* Hero Background Element Images  */}
+          <Image
+            src="/img/images/th-2/hero-bg-img-1.jpg"
+            alt="hero-img-1"
+            width={288}
+            height={355}
+            className="absolute left-0 hidden image-move bottom-1/4 -z-10 lg:block xl:bottom-44"
+          />
+          <Image
+            src="/img/images/th-2/hero-bg-img-2.jpg"
+            alt="hero-img-2"
+            width={242}
+            height={282}
+            className="image-move absolute right-[50px] top-28 -z-10 hidden lg:block xl:right-[200px] xxxl:right-[482px] xxxl:top-48"
+          />
+          <Image
+            src="/img/images/th-2/hero-bg-img-3.jpg"
+            alt="hero-img-3"
+            width={324}
+            height={395}
+            className="image-move absolute bottom-[134px] right-0 -z-10 hidden xl:block xxxl:right-[250px]"
+          />
+          {/* Hero Background Element Images  */}
         </div>
-        {/* Section Container */}
+        {/* Hero Space */}
       </div>
-      {/* Hero Space */}
-      {/* Hero Background Element Images  */}
-      <Image
-        src="/img/images/th-2/hero-bg-img-1.jpg"
-        alt="hero-bg-img-1"
-        width={384}
-        height={292}
-        className="image-move absolute left-10 top-[118px] -z-10 w-[40%] lg:w-[30%] xl:left-40 xl:w-auto xxl:left-[317px]"
-      />
-      <Image
-        src="/img/images/th-2/hero-bg-img-2.jpg"
-        alt="hero-bg-img-2"
-        width={176}
-        height={204}
-        className="image-move absolute left-0 top-[193px] -z-10 w-[25%] sm:top-[200px] sm:w-auto md:top-[293px] lg:left-0 xl:left-[70px] xxl:left-[182px]"
-      />
-      <Image
-        src="/img/images/th-2/hero-bg-img-3.jpg"
-        alt="hero-bg-img-3"
-        width={550}
-        height={339}
-        className="image-move absolute bottom-[77px] left-0 -z-10 w-[44%] rounded-[170px] lg:bottom-[106px] xl:bottom-auto xl:top-[610px] xl:w-auto"
-      />
-      <Image
-        src="/img/images/th-2/hero-bg-img-4.jpg"
-        alt="hero-bg-img-4"
-        width={550}
-        height={339}
-        className="image-move absolute right-0 top-[118px] -z-10 w-[44%] rounded-[170px] xl:w-auto"
-      />
-      <Image
-        src="/img/images/th-2/hero-bg-img-5.jpg"
-        alt="hero-bg-img-5"
-        width={179}
-        height={204}
-        className="image-move absolute right-5 top-[360px] -z-10 h-auto w-[15%] sm:top-[320px] md:top-[480px] lg:w-auto xl:right-6 xl:top-[576px] xxl:right-[161px]"
-      />
-      <Image
-        src="/img/images/th-2/hero-bg-img-6.jpg"
-        alt="hero-bg-img-6"
-        width={463}
-        height={292}
-        className="image-move absolute bottom-20 right-10 -z-20 w-[40%] md:bottom-auto md:top-[512px] lg:top-[600px] xl:right-20 xl:top-[657px] xl:w-auto xxl:right-[257px]"
-      />
-      {/* Hero Background Element Images  */}
-    </div>
+    </section>
   );
 }
 
