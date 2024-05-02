@@ -56,10 +56,9 @@ const Offer = () => {
               {/* Section Image */}
               <div
                 className="justify-center hidden mt-20 jos opacity-10 xl:flex"
-                data-jos_animation="fade"
               >
                 <Image
-                  src="/img/icon/icon-arrow-line-white-up-right.svg"
+                  src="/img/icon/icon-arrow-2-line-white-up-right.svg"
                   alt="icon-arrow-line-white-up-right"
                   width={308}
                   height={309}

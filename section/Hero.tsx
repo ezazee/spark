@@ -72,7 +72,7 @@ const Hero = () => {
                 >
                   <a
                     href="#"
-                    className="inline-flex items-center pb-1 border-b btn group gap-x-3 border-colorOrange text-colorOrange sm:ml-auto"
+                    className="inline-flex items-center pb-1 border-b btn group gap-x-3 border-colorCustom text-colorCustom sm:ml-auto"
                   >
                     About Agency
                     <span className="relative flex items-center overflow-hidden">
@@ -102,25 +102,32 @@ const Hero = () => {
           {/* Section Container */}
           {/* Hero Background Element Images  */}
           <Image
-            src="/img/images/th-2/hero-bg-img-1.jpg"
+            src="/img/images/th-2/hero-bg-img-6.jpg"
             alt="hero-img-1"
             width={288}
             height={355}
-            className="absolute left-0 hidden image-move bottom-1/4 -z-10 lg:block xl:bottom-44"
+            className="absolute bottom-0 hidden image-move -z-10 lg:block xl:bottom-44"
           />
           <Image
-            src="/img/images/th-2/hero-bg-img-2.jpg"
+            src="/img/images/th-2/hero-bg-img-4.jpg"
+            alt="hero-img-1"
+            width={288}
+            height={355}
+            className="absolute hidden top-5 left-20 image-move -z-10 lg:block xl:bottom-44"
+          />
+          <Image
+            src="/img/images/th-2/hero-bg-img-1.jpg"
             alt="hero-img-2"
             width={242}
             height={282}
-            className="image-move absolute right-[50px] top-28 -z-10 hidden lg:block xl:right-[200px] xxxl:right-[482px] xxxl:top-48"
+            className="image-move absolute right-[50px] top-28 -z-10 hidden lg:block xl:right-[200px] xxxl:right-[400px] xxxl:top-55"
           />
           <Image
             src="/img/images/th-2/hero-bg-img-3.jpg"
             alt="hero-img-3"
             width={324}
             height={395}
-            className="image-move absolute bottom-[134px] right-0 -z-10 hidden xl:block xxxl:right-[250px]"
+            className="image-move absolute bottom-[134px] right-0 -z-10 hidden xl:block xxxl:right-[150px]"
           />
           {/* Hero Background Element Images  */}
         </div>

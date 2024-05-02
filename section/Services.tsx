@@ -46,11 +46,11 @@ const Services = () => {
                   </p>
                   <ul className="animate-transition mt-6 flex flex-col gap-y-[10px] font-bold text-colorDark group-hover:text-white/75">
                     <li>
-                      <span className="text-colorOrange">01.</span> Sound Maker
+                      <span className="text-colorCustom">01.</span> Sound Maker
                       And Design
                     </li>
                     <li>
-                      <span className="text-colorOrange">02.</span> User
+                      <span className="text-colorCustom">02.</span> User
                       Interface Design
                     </li>
                   </ul>
@@ -97,11 +97,11 @@ const Services = () => {
                   </p>
                   <ul className="animate-transition mt-6 flex flex-col gap-y-[10px] font-bold text-colorDark group-hover:text-white/75">
                     <li>
-                      <span className="text-colorOrange">01.</span> Sound Maker
+                      <span className="text-colorCustom">01.</span> Sound Maker
                       And Design
                     </li>
                     <li>
-                      <span className="text-colorOrange">02.</span> User
+                      <span className="text-colorCustom">02.</span> User
                       Interface Design
                     </li>
                   </ul>
@@ -147,11 +147,11 @@ const Services = () => {
                   </p>
                   <ul className="animate-transition mt-6 flex flex-col gap-y-[10px] font-bold text-colorDark group-hover:text-white/75">
                     <li>
-                      <span className="text-colorOrange">01.</span> Sound Maker
+                      <span className="text-colorCustom">01.</span> Sound Maker
                       And Design
                     </li>
                     <li>
-                      <span className="text-colorOrange">02.</span> User
+                      <span className="text-colorCustom">02.</span> User
                       Interface Design
                     </li>
                   </ul>
@@ -197,11 +197,11 @@ const Services = () => {
                   </p>
                   <ul className="animate-transition mt-6 flex flex-col gap-y-[10px] font-bold text-colorDark group-hover:text-white/75">
                     <li>
-                      <span className="text-colorOrange">01.</span> Sound Maker
+                      <span className="text-colorCustom">01.</span> Sound Maker
                       And Design
                     </li>
                     <li>
-                      <span className="text-colorOrange">02.</span> User
+                      <span className="text-colorCustom">02.</span> User
                       Interface Design
                     </li>
                   </ul>
