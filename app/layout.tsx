@@ -1,11 +1,14 @@
 import "@/styles/globals.css";
 import { Metadata, Viewport } from "next";
 import { siteConfig } from "@/config/site";
-import { fontPoppins, fontSans } from "@/config/fonts";
+import { fontPoppins } from "@/config/fonts";
 import { Providers } from "./providers";
 import { Navbar } from "@/components/navbar";
 import clsx from "clsx";
 import Footer from "@/components/Footer";
+import HotjarScript from "@/components/HotjarScript";
+import { Analytics } from "@vercel/analytics/react";
+ 
 
 export const metadata: Metadata = {
 	title: {
@@ -32,7 +35,9 @@ export default function RootLayout({
 }) {
 	return (
     <html lang="en" suppressHydrationWarning>
-      <head />
+      <head>
+        <HotjarScript />
+      </head>
       <body
         className={clsx(
           "min-h-screen bg-background antialiased page-wrapper relative",
@@ -45,6 +50,7 @@ export default function RootLayout({
               <Navbar />
               {children}
               <Footer />
+              <Analytics />
             </main>
           </div>
         </Providers>
