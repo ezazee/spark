@@ -10,12 +10,14 @@ const Services = () => {
         <div className="container">
           {/* Section Block */}
           <div className="section-block max-w-[1131px]">
-            <span className="section-tag section-tag-primary">What We Do</span>
+            <span className="section-tag section-tag-primary">
+              What We Serve
+            </span>
             <h2 className="section-title text-colorDark">
               <span className="text-colorGrey">
-                Our mission is to accompany brands and
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum accusamus placeat veritatis, illo voluptas excepturi.
               </span>
-              tell stories that deepen engagement through impactful design.
             </h2>
           </div>
           {/* Section Block */}
@@ -28,31 +30,31 @@ const Services = () => {
                   <div className="mb-6 md:mb-12">
                     <Image
                       src="/img/icon/service-icon-2.svg"
-                      alt="service-icon-2"
+                      alt="Social Media Management"
                       width={98}
                       height={78}
                     />
                   </div>
                   <h3 className="mb-5 font-medium animate-transition text-colorDark group-hover:text-white">
-                    Data Analytics and Solutions
+                    Social Media Management
                   </h3>
                 </div>
                 {/* Top */}
                 {/* Bottom */}
                 <div className="mt-auto">
                   <p className="animate-transition text-colorGreyLight group-hover:text-white/75">
-                    We create mind-blowing visuals, brands, websites and
-                    products that help startups.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                    nostrum vitae ex. Doloribus, ipsum qui?
                   </p>
                   <ul className="animate-transition mt-6 flex flex-col gap-y-[10px] font-bold text-colorDark group-hover:text-white/75">
                     <li>
-                      <span className="text-colorCustom">01.</span> Sound Maker
-                      And Design
+                      <span className="text-colorCustom">01.</span> Instagram
+                      Feed
                     </li>
                     <li>
-                      <span className="text-colorCustom">02.</span> User
-                      Interface Design
+                      <span className="text-colorCustom">02.</span> Regular Post
                     </li>
+                    <li>And More..</li>
                   </ul>
                 </div>
                 {/* Bottom */}
@@ -60,12 +62,11 @@ const Services = () => {
                 <div className="absolute inset-0 opacity-0 animate-transition -z-10 group-hover:opacity-100">
                   <Image
                     src="/img/images/th-2/service-img.jpg"
-                    alt="service-img"
+                    alt="Social Media Management"
                     width={380}
                     height={727}
                     className="object-cover w-full h-full"
                   />
-                  Image
                   <div className="absolute inset-0 radial-gradient-dark" />
                 </div>
               </div>
@@ -79,31 +80,32 @@ const Services = () => {
                   <div className="mb-6 md:mb-12">
                     <Image
                       src="/img/icon/service-icon-1.svg"
-                      alt="service-icon-1"
+                      alt="Design 2D, 3D & Customing Design"
                       width={96}
                       height={78}
                     />
                   </div>
                   <h3 className="mb-5 font-medium animate-transition text-colorDark group-hover:text-white">
-                    Marketing strategy and Data Solutions
+                    Design 2D, 3D, UI UX & Customing Design
                   </h3>
                 </div>
                 {/* Top */}
                 {/* Bottom */}
                 <div className="mt-auto">
                   <p className="animate-transition text-colorGreyLight group-hover:text-white/75">
-                    We create mind-blowing visuals, brands, websites and
-                    products that help startups.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repudiandae necessitatibus in minus?
                   </p>
                   <ul className="animate-transition mt-6 flex flex-col gap-y-[10px] font-bold text-colorDark group-hover:text-white/75">
                     <li>
-                      <span className="text-colorCustom">01.</span> Sound Maker
-                      And Design
+                      <span className="text-colorCustom">01. </span>
+                      Design Shirt, Uniform, UI & UX
                     </li>
                     <li>
-                      <span className="text-colorCustom">02.</span> User
-                      Interface Design
+                      <span className="text-colorCustom">02.</span> 3D & 2D
+                      Character
                     </li>
+                    <li>And More...</li>
                   </ul>
                 </div>
                 {/* Bottom */}
@@ -111,7 +113,7 @@ const Services = () => {
                 <div className="absolute inset-0 opacity-0 animate-transition -z-10 group-hover:opacity-100">
                   <Image
                     src="/img/images/th-2/service-img.jpg"
-                    alt="service-img"
+                    alt=" Design 2D, 3D & Customing Design"
                     width={380}
                     height={727}
                     className="object-cover w-full h-full"
@@ -129,7 +131,7 @@ const Services = () => {
                   <div className="mb-6 md:mb-12">
                     <Image
                       src="/img/icon/service-icon-2.svg"
-                      alt="service-icon-2"
+                      alt="Web Design and Development"
                       width={98}
                       height={78}
                     />
@@ -142,18 +144,19 @@ const Services = () => {
                 {/* Bottom */}
                 <div className="mt-auto">
                   <p className="animate-transition text-colorGreyLight group-hover:text-white/75">
-                    We create mind-blowing visuals, brands, websites and
-                    products that help startups.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Expedita fugit eveniet ex?
                   </p>
                   <ul className="animate-transition mt-6 flex flex-col gap-y-[10px] font-bold text-colorDark group-hover:text-white/75">
                     <li>
-                      <span className="text-colorCustom">01.</span> Sound Maker
-                      And Design
+                      <span className="text-colorCustom">01.</span> Web Custom
+                      Tech
                     </li>
                     <li>
-                      <span className="text-colorCustom">02.</span> User
-                      Interface Design
+                      <span className="text-colorCustom">02.</span> Wordpress,
+                      Wix
                     </li>
+                    <li>And More...</li>
                   </ul>
                 </div>
                 {/* Bottom */}
@@ -161,7 +164,7 @@ const Services = () => {
                 <div className="absolute inset-0 opacity-0 animate-transition -z-10 group-hover:opacity-100">
                   <Image
                     src="/img/images/th-2/service-img.jpg"
-                    alt="service-img"
+                    alt="Web Design and Development"
                     width={380}
                     height={727}
                     className="object-cover w-full h-full"
@@ -179,30 +182,30 @@ const Services = () => {
                   <div className="mb-6 md:mb-12">
                     <Image
                       src="/img/icon/service-icon-3.svg"
-                      alt="service-icon-3"
+                      alt="Video Editing & Motion Graphic"
                       width={73}
                       height={78}
                     />
                   </div>
                   <h3 className="mb-5 font-medium animate-transition text-colorDark group-hover:text-white">
-                    Business Strategy And Solution
+                    Video Editing & Motion Graphic
                   </h3>
                 </div>
                 {/* Top */}
                 {/* Bottom */}
                 <div className="mt-auto">
                   <p className="animate-transition text-colorGreyLight group-hover:text-white/75">
-                    We create mind-blowing visuals, brands, websites and
-                    products that help startups.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi mollitia itaque perspiciatis!
                   </p>
                   <ul className="animate-transition mt-6 flex flex-col gap-y-[10px] font-bold text-colorDark group-hover:text-white/75">
                     <li>
-                      <span className="text-colorCustom">01.</span> Sound Maker
-                      And Design
+                      <span className="text-colorCustom">01.</span> Regular Video Editing
                     </li>
                     <li>
-                      <span className="text-colorCustom">02.</span> User
-                      Interface Design
+                      <span className="text-colorCustom">02.</span> Motion Graphic
+                    </li>
+                    <li>
+                      And More...
                     </li>
                   </ul>
                 </div>
@@ -211,7 +214,7 @@ const Services = () => {
                 <div className="absolute inset-0 opacity-0 animate-transition -z-10 group-hover:opacity-100">
                   <Image
                     src="/img/images/th-2/service-img.jpg"
-                    alt="service-img"
+                    alt="Video Editing & Motion Graphic"
                     width={380}
                     height={727}
                     className="object-cover w-full h-full"

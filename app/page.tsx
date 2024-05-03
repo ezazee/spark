@@ -3,6 +3,7 @@ import Hero from "@/section/Hero";
 import Offer from "@/section/Offer";
 import Pricing from "@/section/Pricing";
 import Services from "@/section/Services";
+import Testimonial from "@/section/Testimonial";
 import Whyus from "@/section/WhyUs";
 import React from "react";
 
@@ -15,14 +16,14 @@ const Home = () => {
       <section className="section-about">
         <About />
       </section>
-      <section className="section-service">
+      <section className="mb-60 section-service">
         <Services />
       </section>
-      <section className="section-offer">
-        <Offer />
-      </section>
       <section className="why-us-section">
-       <Whyus />
+        <Whyus />
+      </section>
+      <section className="testimonial-section">
+        <Testimonial />
       </section>
       <section className="mb-60 section-pricing">
         <Pricing />

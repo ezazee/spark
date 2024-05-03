@@ -11,22 +11,18 @@ const About = () => {
           {/* Section Image */}
           <Image
             src="/img/icon/icon-arrow-2-line-white-up-right.svg"
-            alt="icon-arrow-2-line-white-up-right"
+            alt="SpaceSpark Creative"
             width={378}
             height={378}
-            className="jos hidden h-auto md:block md:w-56 lg:w-72 xl:w-[378px]"
-            data-jos_animation="fade"
+            className="hidden h-auto md:block md:w-56 lg:w-72 xl:w-[378px]"
           />
           {/* Section Image */}
           {/* Section Block */}
           <div className="section-block">
-            <span
-              className="section-tag section-tag-primary"
-              data-jos_delay={0}
-            >
+            <span className="section-tag section-tag-primary">
               About Our Agency
             </span>
-            <h2 className="jos section-title" data-jos_delay="0.3">
+            <h2 className="section-title">
               <span className="text-colorGrey">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 adipisicing elit. Laudantium qui distinctio atque harum
@@ -40,7 +36,7 @@ const About = () => {
         {/* About Area */}
         <div className="grid grid-cols-1 items-center justify-center gap-12 lg:grid-cols-[minmax(0,_0.85fr)_auto_auto] xl:gap-16 xxl:gap-24">
           {/* About Text */}
-          <p className="text-xl text-colorGrey" data-jos_delay={0}>
+          <p className="text-xl text-colorGrey">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium
             qui distinctio atque harum nesciunt! Voluptates similique dolore
             consequatur quae. Voluptatum quos qui labore pariatur nihil fugit
@@ -48,10 +44,7 @@ const About = () => {
           </p>
           {/* About Text */}
           {/* About Counter-up Block */}
-          <div
-            className="grid grid-cols-2 jos lg:gap-12 xl:gap-16 xxl:gap-24"
-            data-jos_delay="0.3"
-          >
+          <div className="grid grid-cols-2 lg:gap-12 xl:gap-16 xxl:gap-24">
             {/* Counter Single Block */}
             <div className="text-center">
               <div
@@ -83,7 +76,7 @@ const About = () => {
           </div>
           {/* About Counter-up Block */}
           {/* Text Link */}
-          <div className="mx-auto jos" data-jos_delay="0.6">
+          <div className="mx-auto jos">
             <a
               href="#"
               className="inline-flex items-center pb-1 ml-auto border-b btn group gap-x-3 border-colorCustom text-colorCustom"
@@ -92,14 +85,14 @@ const About = () => {
               <span className="relative flex items-center overflow-hidden">
                 <Image
                   src="/img/icon/icon-orange-arrow-long-right.svg"
-                  alt="icon-orange-arrow-long-right"
+                  alt="SpaceSpark Creative"
                   width="24"
                   height="12"
                   className="w-6 h-3 translate-x-0 animate-transition group-hover:translate-x-full"
                 />
                 <Image
                   src="/img/icon/icon-orange-arrow-long-right.svg"
-                  alt="icon-orange-arrow-long-right"
+                  alt="SpaceSpark Creative"
                   width="24"
                   height="12"
                   className="absolute inset-0 w-6 h-3 -translate-x-full animate-transition group-hover:translate-x-0"

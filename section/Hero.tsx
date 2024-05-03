@@ -48,8 +48,8 @@ const Hero = () => {
               </h2>
               <div className="grid mt-5 grid-cols-1 text-colorGrey items-center gap-11 sm:grid-cols-[minmax(0,_0.85fr)_1fr]">
                 <p className="jos">
-                  We embody unwavering expertise, garnered through years of
-                  industry mastery. Our team’s extensive knowledge
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Magni, ratione!
                 </p>
                 <h2
                   className="jos text-7xl font-extrabold text-colorGrey leading-[1.05] md:text-8xl xl:text-9xl xxl:text-[150px]"
@@ -71,21 +71,21 @@ const Hero = () => {
                   data-jos_delay="0.6"
                 >
                   <a
-                    href="#"
+                    href="/about"
                     className="inline-flex items-center pb-1 border-b btn group gap-x-3 border-colorCustom text-colorCustom sm:ml-auto"
                   >
                     About Agency
                     <span className="relative flex items-center overflow-hidden">
                       <Image
                         src="/img/icon/icon-orange-arrow-long-right.svg"
-                        alt="icon-orange-arrow-long-right"
+                        alt="SpaceSpark Creative"
                         width={24}
                         height={12}
                         className="w-6 h-3 translate-x-0 animate-transition group-hover:translate-x-full"
                       />
                       <Image
                         src="/img/icon/icon-orange-arrow-long-right.svg"
-                        alt="icon-orange-arrow-long-right"
+                        alt="SpaceSpark Creative"
                         width={24}
                         height={12}
                         className="absolute inset-0 w-6 h-3 -translate-x-full animate-transition group-hover:translate-x-0"
@@ -103,28 +103,28 @@ const Hero = () => {
           {/* Hero Background Element Images  */}
           <Image
             src="/img/images/th-2/hero-bg-img-6.jpg"
-            alt="hero-img-1"
+            alt="SpaceSpark Creative"
             width={288}
             height={355}
             className="absolute bottom-0 hidden image-move -z-10 lg:block xl:bottom-44"
           />
           <Image
             src="/img/images/th-2/hero-bg-img-4.jpg"
-            alt="hero-img-1"
+            alt="SpaceSpark Creative"
             width={288}
             height={355}
             className="absolute hidden top-5 left-20 image-move -z-10 lg:block xl:bottom-44"
           />
           <Image
             src="/img/images/th-2/hero-bg-img-1.jpg"
-            alt="hero-img-2"
+            alt="SpaceSpark Creative"
             width={242}
             height={282}
             className="image-move absolute right-[50px] top-28 -z-10 hidden lg:block xl:right-[200px] xxxl:right-[400px] xxxl:top-55"
           />
           <Image
             src="/img/images/th-2/hero-bg-img-3.jpg"
-            alt="hero-img-3"
+            alt="SpaceSpark Creative"
             width={324}
             height={395}
             className="image-move absolute bottom-[134px] right-0 -z-10 hidden xl:block xxxl:right-[150px]"

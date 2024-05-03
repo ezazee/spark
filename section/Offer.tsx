@@ -16,7 +16,7 @@ const Offer = () => {
                   className="section-tag section-tag-primary"
                   data-jos_delay={0}
                 >
-                  What Services We Provide
+                  What We Offer
                 </span>
                 <h2
                   className="jos section-title text-colorDark dark:text-colorCustom"

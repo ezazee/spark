@@ -8,7 +8,6 @@ import clsx from "clsx";
 import Footer from "@/components/Footer";
 import HotjarScript from "@/components/HotjarScript";
 import { Analytics } from "@vercel/analytics/react";
- 
 
 export const metadata: Metadata = {
 	title: {

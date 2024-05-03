@@ -15,11 +15,33 @@ import NextLink from "next/link";
 import clsx from "clsx";
 import { ThemeSwitch } from "@/components/theme-switch";
 import Image from "next/image";
+import { useRouter } from "next/router";
+
 
 export const Navbar = () => {
   return (
-    <NextUINavbar maxWidth="xl" position="sticky" shouldHideOnScroll>
-      <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
+    <NextUINavbar
+      classNames={{
+        item: [
+          "flex",
+          "relative",
+          "h-full",
+          "items-center",
+          "data-[active=true]:after:content-['']",
+          "data-[active=true]:after:absolute",
+          "data-[active=true]:after:bottom-0",
+          "data-[active=true]:after:left-0",
+          "data-[active=true]:after:right-0",
+          "data-[active=true]:after:h-[2px]",
+          "data-[active=true]:after:rounded-[2px]",
+          "data-[active=true]:after:bg-primary",
+        ],
+      }}
+      maxWidth="xl"
+      position="sticky"
+      shouldHideOnScroll
+    >
+      <NavbarContent justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink className="flex items-center justify-start gap-1" href="/">
             <Image
@@ -31,13 +53,15 @@ export const Navbar = () => {
             />
           </NextLink>
         </NavbarBrand>
+      </NavbarContent>
+      <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <ul className="justify-center hidden gap-4 ml-2 lg:flex">
           {siteConfig.navItems.map((item) => (
             <NavbarItem key={item.href}>
               <NextLink
                 className={clsx(
                   linkStyles({ color: "foreground" }),
-                  "data-[active=true]:text-primary data-[active=true]:font-bold"
+                  "data-[active=true]:text-primary data-[active=true]:font-bold px-1.5"
                 )}
                 color="primary"
                 href={item.href}
