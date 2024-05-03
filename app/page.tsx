@@ -1,6 +1,6 @@
 import About from "@/section/About";
+import ClientLogo from "@/section/ClientLogo";
 import Hero from "@/section/Hero";
-import Offer from "@/section/Offer";
 import Pricing from "@/section/Pricing";
 import Services from "@/section/Services";
 import Testimonial from "@/section/Testimonial";
@@ -25,9 +25,12 @@ const Home = () => {
       <section className="testimonial-section">
         <Testimonial />
       </section>
-      <section className="mb-60 section-pricing">
-        <Pricing />
+      <section className="section-logo-slider">
+        <ClientLogo />
       </section>
+      {/* <section className="mb-60 section-pricing">
+        <Pricing />
+      </section> */}
     </>
   );
 };

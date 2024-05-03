@@ -34,9 +34,9 @@ const Testimonial = () => {
                   </blockquote>
                   <div className="relative mt-10 flex flex-wrap items-center gap-x-3 pl-12 text-colorDark/[35%] before:absolute before:left-0 before:h-[1px] before:w-[38px] before:bg-colorDark/[30%]">
                     <span className="text-xl font-semibold text-colorDark">
-                      Elizabeth White
+                      Henry
                     </span>
-                    Founder at Merga
+                    CTO PT.JAN & Manager Huehuy
                   </div>
                 </div>
               </div>
@@ -53,9 +53,9 @@ const Testimonial = () => {
                   </blockquote>
                   <div className="relative mt-10 flex flex-wrap items-center gap-x-3 pl-12 text-colorDark/[35%] before:absolute before:left-0 before:h-[1px] before:w-[38px] before:bg-colorDark/[30%]">
                     <span className="text-xl font-semibold text-colorDark">
-                      Elizabeth White
+                      Nabila
                     </span>
-                    Founder at Merga
+                    Founder RajaKhitan
                   </div>
                 </div>
               {/* Swiper SLider Item */}
@@ -72,29 +72,9 @@ const Testimonial = () => {
                   </blockquote>
                   <div className="relative mt-10 flex flex-wrap items-center gap-x-3 pl-12 text-colorDark/[35%] before:absolute before:left-0 before:h-[1px] before:w-[38px] before:bg-colorDark/[30%]">
                     <span className="text-xl font-semibold text-colorDark">
-                      Elizabeth White
+                      Emile Wiratala
                     </span>
-                    Founder at Merga
-                  </div>
-                </div>
-              </div>
-              {/* Swiper SLider Item */}
-            </SwiperSlide>
-            <SwiperSlide>
-              {/* Swiper SLider Item */}
-              <div className="swiper-slide">
-                <div className="bg-colorGreyWhite bg-[url('img/icon/icon-orange-quote.html')] bg-[40px_40px] bg-no-repeat px-11 py-10">
-                  <blockquote className="text-xl text-colorGreyLight">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Vitae rerum facere esse. Quae deleniti cum blanditiis sint
-                    ab commodi accusamus dicta ut! Ex esse exercitationem dolore
-                    accusantium culpa adipisci praesentium.
-                  </blockquote>
-                  <div className="relative mt-10 flex flex-wrap items-center gap-x-3 pl-12 text-colorDark/[35%] before:absolute before:left-0 before:h-[1px] before:w-[38px] before:bg-colorDark/[30%]">
-                    <span className="text-xl font-semibold text-colorDark">
-                      Elizabeth White
-                    </span>
-                    Founder at Merga
+                    CEO PT.EMAS & PT.GKD
                   </div>
                 </div>
               </div>

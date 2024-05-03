@@ -18,8 +18,26 @@ export const siteConfig = {
     },
     {
       label: "Service",
-      href: "/service"
+      href: "/service",
     }
+  ],
+  navSubItems: [
+    {
+      label: "Service 1",
+      href: "/services/serivces 1"
+    },
+    {
+      label: "Service 2",
+      href: "/services/serivces 2"
+    },
+    {
+      label: "Service 3",
+      href: "/services/serivces 3"
+    },
+    {
+      label: "Service 3",
+      href: "/services/serivces 4"
+    },
   ],
   navMenuItems: [
     {
